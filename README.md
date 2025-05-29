@@ -24,7 +24,7 @@ The API allows you to perform basic **CRUD operations** on a list of books — s
 }
 
 
-🧪 How to Run
+**🧪 How to Run**
 Open terminal in your project folder
 
 Run npm install
@@ -61,7 +61,7 @@ book-api/
     └── delete-book.png
 
 
- ✅Task Outcome
+ **✅Task Outcome**
 
 - This task helped understand:
 
