@@ -9,7 +9,7 @@ The API allows you to perform basic **CRUD operations** on a list of books — s
 
 - **GET /books** – Get all books
 - **POST /books** – Add a new book
-- **PUT /books/:id** – Update an existing book by ID
+- **PUT /books/:id** – Update a book by ID
 - **DELETE /books/:id** – Delete a book by ID
 
 ---
@@ -23,14 +23,15 @@ The API allows you to perform basic **CRUD operations** on a list of books — s
   "author": "James Clear"
 }
 
-🧪 How to Run
-Open the terminal in your project folder
 
-Run npm install (installs Express)
+🧪 How to Run
+Open terminal in your project folder
+
+Run npm install
 
 Run node index.js
 
-Open Postman and test the API at:
+Open Postman and test at:
 
 http://localhost:3000/books
 
@@ -38,13 +39,14 @@ http://localhost:3000/books
 ## 📸 Screenshots
 
 ### ▶️ GET /books
-![GET books](./images/get-books.png)
+![GET books](images/get-books.png)
 
 ### ✏️ PUT /books/:id
-![PUT update book](./images/update-book.png)
+![PUT update book](images/update-book.png)
 
 ### ❌ DELETE /books/:id
-![DELETE book](./images/delete-book.png)
+![DELETE book](images/delete-book.png)
+
 
 
 
@@ -54,11 +56,12 @@ book-api/
 │
 ├── index.js          
 ├── package.json       
-├── README.md          
+├── README.md
+├── node_modules   
 └── images/            
-    ├── screenshot-1.png
-    ├── screenshot-2.png
-    └── screenshot-3.png
+    ├── update-book.png
+    ├── get-books.png
+    └── delete-book.png
 
 
  ✅Task Outcome
