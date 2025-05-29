@@ -47,9 +47,6 @@ http://localhost:3000/books
 ### ❌ DELETE /books/:id
 ![DELETE book](images/delete-book.png)
 
-
-
-
 📂 Folder Structure
 
 book-api/
